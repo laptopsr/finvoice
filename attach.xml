@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<FinvoiceAttachments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FinvoiceAttachments.xsd" Version="1.0">
+<MessageTransmissionDetails>
+<MessageSenderDetails>
+<FromIdentifier>FI4043091020117999</FromIdentifier>
+<FromIntermediator>HELSFIHH</FromIntermediator>
+</MessageSenderDetails>
+<MessageReceiverDetails>
+<ToIdentifier>003702048999</ToIdentifier>
+<ToIntermediator>003714377999</ToIntermediator>
+</MessageReceiverDetails>
+<MessageDetails>
+<MessageIdentifer>XS0604.48GPB2/212::attachments</MessageIdentifier>
+<MessageTimeStamp>2012-06-04T15:54:40+03:00 </MessageTimeStamp>
+<RefToMessageIdentifier>XS0604.48GPB2/212</RefToMessageIdentifier>
+</MessageDetails>
+</MessageTransmissionDetails>
+<AttachmentDetails>
+<AttachmentIdentifer>YV1199015::attachments::a0824b7488d56e01cb98c9082ec
+320489e e99e26 </AttachmentIdentifier>
+<AttachmentCotent>iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAAB
+WdVznAAAAAXNSR0IArs4c6QAAAPxJRFUKM+FkUGugkAQRF/DSEQWchnj
+KJyEPXGjIZ5GY7yLF3DlVdTghil3RsCfX0kvOtWvq5M2SWIgMwPgh0X03XRd
+R1EUTKdTkiBe0/Xdf1lwwQzY7FYAHC9Xgkh/J3QNA1mRl3XbDYb4jimaZr+Tfr
+SfD7XbDbT/X5X27bK81x5nn+P6AOcz2cBqqrqY+73e00mE51OpzGwXq8F6HK5K
+ISgEIJut5ucc1qtVmPAOSegV2mayszknOsD2+1WgMxsBEVRJEC73U6SZJKUZR
+kAz+eTX8qyDDPj8XgQHQ4HXq8X3vvPZ4cfXi6XtG3L8XiEsixlZvpPgIqi0BvI+/Y
+xt3r4KgAAAABJRU5ErkJggg==</AttachmentContent>
+<AttachmentName>vokaali.png</AttachmentName>
+<AttachmentSecurityClass>SEI01</AttachmentSecurityClass>
+<AttachmentMimeType>image/png</AttachmentMimeType>
+<AttachmentSecureHash>a0824b7488d56e01cb98c9082ec320489ee99e26
+</AttachmentSecureHash>
+</AttachmentDetails>
+</FinvoiceAttachments>
