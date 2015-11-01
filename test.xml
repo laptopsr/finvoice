@@ -3,7 +3,7 @@
 xsi:noNamespaceSchemaLocation="Finvoice.xsd">
   <SellerPartyDetails>
     <SellerPartyIdentifier>123456-7</SellerPartyIdentifier>
-    <SellerOrganisationName>Test organization</SellerOrganisationName>
+    <SellerOrganisationName>VETEL AY</SellerOrganisationName>
     <SellerOrganisationTaxCode>123456-7</SellerOrganisationTaxCode>
     <SellerPostalAddressDetails>
       <SellerStreetName></SellerStreetName>
@@ -13,7 +13,7 @@ xsi:noNamespaceSchemaLocation="Finvoice.xsd">
       <CountryName>Finland</CountryName>
     </SellerPostalAddressDetails>
   </SellerPartyDetails>
-  <SellerContactPersonName>Mark Stanley</SellerContactPersonName>
+  <SellerContactPersonName>Pekka Ylimartimo</SellerContactPersonName>
   <SellerCommunicationDetails>
     <SellerPhoneNumberIdentifier></SellerPhoneNumberIdentifier>
     <SellerEmailaddressIdentifier></SellerEmailaddressIdentifier>
@@ -49,7 +49,7 @@ xsi:noNamespaceSchemaLocation="Finvoice.xsd">
   </BuyerCommunicationDetails>
   <InvoiceDetails>
     <InvoiceTypeCode></InvoiceTypeCode>
-    <InvoiceTypeText></InvoiceTypeText>
+    <InvoiceTypeText>LASKU</InvoiceTypeText>
     <OriginCode></OriginCode>
     <InvoiceNumber>1001</InvoiceNumber>
     <InvoiceDate Format="CCYYMMDD">20130719</InvoiceDate>

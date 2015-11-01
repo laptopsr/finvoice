@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-15" ?>
-<FinvoiceAttachments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FinvoiceAttachments.xsd" Version="1.0">
+<FinvoiceAttachments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="FinvoiceAttachments.xsd" Version="1.0">
 <MessageTransmissionDetails>
 <MessageSenderDetails>
 <FromIdentifier>FI4043091020117999</FromIdentifier>
@@ -17,7 +18,7 @@
 </MessageTransmissionDetails>
 <AttachmentDetails>
 <AttachmentIdentifer>YV1199015::attachments::a0824b7488d56e01cb98c9082ec
-320489e e99e26 </AttachmentIdentifier>
+320489ee99e26 </AttachmentIdentifier>
 <AttachmentCotent>iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAAB
 WdVznAAAAAXNSR0IArs4c6QAAAPxJRFUKM+FkUGugkAQRF/DSEQWchnj
 KJyEPXGjIZ5GY7yLF3DlVdTghil3RsCfX0kvOtWvq5M2SWIgMwPgh0X03XRd
