@@ -1,0 +1,101 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:eb="http://www.oasis-open.org/committees/ebxml-msg/schema/msg-header-2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ envelope.xsd">
+<SOAP-ENV:Header>
+<eb:MessageHeader xmlns:eb="http://www.oasis-open.org/committees/ebxml-msg/schema/msg-header-2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.oasis-open.org/committees/ebxml-msg/schema/msg-header-2_0.xsd msg-header-2_0.xsd" SOAP-ENV:mustUnderstand="1" eb:version="2.0">
+<eb:From>
+<eb:PartyId>FI2029501800068110</eb:PartyId>
+<eb:Role>Sender</eb:Role>
+</eb:From>
+<eb:From>
+<eb:PartyId>NDEAFIHH</eb:PartyId>
+<eb:Role>Intermediator</eb:Role>
+</eb:From>
+<eb:To>
+<eb:PartyId>SENDERINFO</eb:PartyId>
+<eb:Role>Receiver</eb:Role>
+</eb:To>
+<eb:To>
+<eb:PartyId>NDEAFIHH</eb:PartyId>
+<eb:Role>Intermediator</eb:Role>
+</eb:To>
+<eb:CPAId>yoursandmycpa</eb:CPAId>
+<eb:Service>Routing</eb:Service>
+<eb:Action>ProcessInvoice</eb:Action>
+<eb:MessageData>
+<eb:MessageId>20130111a/1</eb:MessageId>
+<eb:Timestamp>2013-01-11T08:53:57+02:00</eb:Timestamp>
+</eb:MessageData>
+</eb:MessageHeader>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+<eb:Manifest eb:id="Manifest" eb:version="2.0">
+<eb:Reference eb:id="FinvoiceSenderInfo" xlink:href="20130111a">
+<eb:Schema eb:location="http://www.pankkiyhdistys.fi/verkkolasku/finvoice/FinvoiceSenderInfo.xsd" eb:version="2.0"/>
+</eb:Reference>
+</eb:Manifest>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="FinvoiceSenderInfo.xsl"?>
+<FinvoiceSenderInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FinvoiceSenderInfo.xsd" Version="2.0">
+<MessageDetails>
+<MessageTypeCode>SENDERINFO</MessageTypeCode>
+<MessageTypeText>LASKUTTAJAN ILMOITUS</MessageTypeText>
+<MessageActionCode>ADD</MessageActionCode>
+<MessageDate Format="CCYYMMDD">20130220</MessageDate>
+<SenderInfoIdentifier>20130111a</SenderInfoIdentifier>
+</MessageDetails>
+<SellerPartyDetails>
+<SellerPartyIdentifier>9999999-2</SellerPartyIdentifier>
+<SellerOrganisationNames LanguageCode="FI">
+<SellerOrganisationName>Test Company INC</SellerOrganisationName>
+<SellerOrganisationName>Test Company suomeksi</SellerOrganisationName>
+</SellerOrganisationNames>
+<SellerOrganisationNames LanguageCode="SV">
+<SellerOrganisationName>Test Company INC</SellerOrganisationName>
+<SellerOrganisationName>Test Company pa svenska</SellerOrganisationName>
+</SellerOrganisationNames>
+<SellerOrganisationNames LanguageCode="EN">
+<SellerOrganisationName>Test Company INC</SellerOrganisationName>
+<SellerOrganisationName>Test Company in English</SellerOrganisationName>
+</SellerOrganisationNames>
+<SellerPostalAddressDetails>
+<SellerStreetName>Satamaradankatu 5</SellerStreetName>
+<SellerTownName>Helsinki</SellerTownName>
+<SellerPostCodeIdentifier>00500</SellerPostCodeIdentifier>
+<CountryCode>FI</CountryCode>
+<CountryName>Suomi</CountryName>
+</SellerPostalAddressDetails>
+</SellerPartyDetails>
+<InvoiceSenderInformationDetails>
+<SellerWebaddressNameText>Nordea Bank Finland Plc Ohjelmistotalot</SellerWebaddressNameText>
+<SellerWebaddressText>https://www.nordea.fi/ohjelmistotalot</SellerWebaddressText>
+<InvoiceSenderAddress>FI2029501800068110</InvoiceSenderAddress>
+<InvoiceSenderIntermediatorAddress>NDEAFIHH</InvoiceSenderIntermediatorAddress>
+</InvoiceSenderInformationDetails>
+<SellerAccountDetails>
+<SellerAccountID IdentificationSchemeName="IBAN">FI2029501800068110</SellerAccountID>
+<SellerBic IdentificationSchemeName="BIC">NDEAFIHH</SellerBic>
+</SellerAccountDetails>
+<SellerInvoiceDetails>
+<SellerDirectDebitIdentifier>999999999</SellerDirectDebitIdentifier>
+<PaymentInstructionIdentifier>Testilasku</PaymentInstructionIdentifier>
+<SellerInstructionFreeText LanguageCode="FI">Instruction suomeksi</SellerInstructionFreeText>
+<SellerInstructionFreeText LanguageCode="SV">Instruction pa svenska</SellerInstructionFreeText>
+<SellerInstructionFreeText LanguageCode="EN">Instruction in english</SellerInstructionFreeText>
+<SellerInvoiceTypeDetails>
+<SellerInvoiceTypeText LanguageCode="FI">Testaukseen FI</SellerInvoiceTypeText>
+<SellerInvoiceIdentifierText LanguageCode="FI" SellerInvoiceIdentifierType="02">Ref suomeksi</SellerInvoiceIdentifierText>
+</SellerInvoiceTypeDetails>
+<SellerInvoiceTypeDetails>
+<SellerInvoiceTypeText LanguageCode="SV">Only for test use SV</SellerInvoiceTypeText>
+<SellerInvoiceIdentifierText LanguageCode="SV" SellerInvoiceIdentifierType="02">Ref pa svenska</SellerInvoiceIdentifierText>
+</SellerInvoiceTypeDetails>
+<SellerInvoiceTypeDetails>
+<SellerInvoiceTypeText LanguageCode="EN">Only for test use EN</SellerInvoiceTypeText>
+<SellerInvoiceIdentifierText LanguageCode="EN" SellerInvoiceIdentifierType="02">Ref in english</SellerInvoiceIdentifierText>
+</SellerInvoiceTypeDetails>
+<SellerServiceCode>01</SellerServiceCode>
+</SellerInvoiceDetails>
+<ProposedDueDateAccepted>YES</ProposedDueDateAccepted>
+<ProposedInvoicePeriodAccepted>YES</ProposedInvoicePeriodAccepted>
+</FinvoiceSenderInfo>
