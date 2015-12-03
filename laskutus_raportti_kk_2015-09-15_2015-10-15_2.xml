@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<!DOCTYPE Finvoice SYSTEM "Finvoice.dtd">
+<?xml-stylesheet type="text/xsl" href="Finvoice.xsl"?>
+<Finvoice Version="1.2">
+    <SellerPartyDetails>
+        <SellerPartyIdentifier>1741670-7</SellerPartyIdentifier>
+        <SellerPartyIdentifierUrlText>http://www.ytj.fi/yrityshaku.aspx</SellerPartyIdentifierUrlText>
+        <SellerOrganisationName>Rauman Tietokeskus Oy</SellerOrganisationName>
+        <SellerOrganisationTaxCode>FI17416707</SellerOrganisationTaxCode>
+        <SellerOrganisationTaxCodeUrlText>http://ec.europa.eu/taxation_customs/vies</SellerOrganisationTaxCodeUrlText>
+        <SellerPostalAddressDetails>
+            <SellerStreetName>Hallikatu 6</SellerStreetName>
+            <SellerTownName>RAUMA</SellerTownName>
+            <SellerPostCodeIdentifier>26100</SellerPostCodeIdentifier>
+            <CountryCode>FI</CountryCode>
+            <CountryName>Finland</CountryName>
+        </SellerPostalAddressDetails>
+    </SellerPartyDetails>
+    <SellerInformationDetails>
+        <SellerHomeTownName>RAUMA</SellerHomeTownName>
+        <SellerWebaddressIdentifier/>
+        <SellerAccountDetails>
+            <SellerAccountID IdentificationSchemeName="IBAN">FI7757100420208597</SellerAccountID>
+            <SellerBic IdentificationSchemeName="BIC">OKOYFIHH</SellerBic>
+        </SellerAccountDetails>
+    </SellerInformationDetails>
+    <BuyerPartyDetails>
+        <BuyerPartyIdentifier>0000000-0</BuyerPartyIdentifier>
+        <BuyerOrganisationName>Oy Ostaja Ab</BuyerOrganisationName>
+        <BuyerOrganisationDepartment>Ostajan osasto</BuyerOrganisationDepartment>
+        <BuyerOrganisationTaxCode>FI00000000</BuyerOrganisationTaxCode>
+        <BuyerPostalAddressDetails>
+            <BuyerStreetName>PL 123</BuyerStreetName>
+            <BuyerTownName>Kaupunki</BuyerTownName>
+            <BuyerPostCodeIdentifier>12345</BuyerPostCodeIdentifier>
+            <CountryCode>FI</CountryCode>
+            <CountryName>Finland</CountryName>
+        </BuyerPostalAddressDetails>
+    </BuyerPartyDetails>
+    <BuyerOrganisationUnitNumber>00000000000000000</BuyerOrganisationUnitNumber>
+    <InvoiceDetails>
+        <InvoiceTypeCode CodeListAgencyIdentifier="SPY">INV01</InvoiceTypeCode>
+        <InvoiceTypeText>Invoice</InvoiceTypeText>
+        <OriginCode>Original</OriginCode>
+        <InvoiceNumber>1234567</InvoiceNumber>
+        <InvoiceDate Format="CCYYMMDD">20110629</InvoiceDate>
+        <SellerReferenceIdentifier>0000000000</SellerReferenceIdentifier>
+        <BuyersSellerIdentifier>FI17416707</BuyersSellerIdentifier>
+        <SellersBuyerIdentifier>FI00000000</SellersBuyerIdentifier>
+        <OrderIdentifier>M0000000</OrderIdentifier>
+        <OrderDate Format="CCYYMMDD">20110629</OrderDate>
+        <BuyerReferenceIdentifier>Asiakkaan viite</BuyerReferenceIdentifier>
+        <InvoiceTotalVatExcludedAmount AmountCurrencyIdentifier="EUR">869,76</InvoiceTotalVatExcludedAmount>
+        <InvoiceTotalVatAmount AmountCurrencyIdentifier="EUR">200,04</InvoiceTotalVatAmount>
+        <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">1069,80</InvoiceTotalVatIncludedAmount>
+        <VatSpecificationDetails>
+            <VatBaseAmount AmountCurrencyIdentifier="EUR">869,76</VatBaseAmount>
+            <VatRatePercent>23</VatRatePercent>
+            <VatCode>3</VatCode>
+            <VatRateAmount AmountCurrencyIdentifier="EUR">200,04</VatRateAmount>
+        </VatSpecificationDetails>
+        <PaymentTermsDetails>
+            <PaymentTermsFreeText>30 days net</PaymentTermsFreeText>
+            <InvoiceDueDate Format="CCYYMMDD">20110729</InvoiceDueDate>
+            <PaymentOverDueFineDetails>
+                <PaymentOverDueFinePercent>14,0</PaymentOverDueFinePercent>
+            </PaymentOverDueFineDetails>
+        </PaymentTermsDetails>
+    </InvoiceDetails>
+    <PaymentStatusDetails>
+        <PaymentStatusCode>NOTPAID</PaymentStatusCode>
+    </PaymentStatusDetails><InvoiceRow><RowSubIdentifier>287064</RowSubIdentifier><ArticleIdentifier>1005055172</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>289115</RowSubIdentifier><ArticleIdentifier>1005058118</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>289403</RowSubIdentifier><ArticleIdentifier>1005058522</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>289619</RowSubIdentifier><ArticleIdentifier>1005058873</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290141</RowSubIdentifier><ArticleIdentifier>1005059677</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290148</RowSubIdentifier><ArticleIdentifier>1005059690</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290149</RowSubIdentifier><ArticleIdentifier>1005059692</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290150</RowSubIdentifier><ArticleIdentifier>1005059694</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290496</RowSubIdentifier><ArticleIdentifier>1005060206</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290497</RowSubIdentifier><ArticleIdentifier>1005060208</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290498</RowSubIdentifier><ArticleIdentifier>1005060210</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290499</RowSubIdentifier><ArticleIdentifier>1005060212</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290500</RowSubIdentifier><ArticleIdentifier>1005060214</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290501</RowSubIdentifier><ArticleIdentifier>1005060216</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290502</RowSubIdentifier><ArticleIdentifier>1005060218</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290503</RowSubIdentifier><ArticleIdentifier>1005060220</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290662</RowSubIdentifier><ArticleIdentifier>1005060464</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><InvoiceRow><RowSubIdentifier>290664</RowSubIdentifier><ArticleIdentifier>1005060468</ArticleIdentifier><ArticleName>JOKO TUOTE</ArticleName><RowFreeText AmountCurrencyIdentifier="EUR">0,00</RowFreeText></InvoiceRow><EpiDetails>
+        <EpiIdentificationDetails>
+            <EpiDate Format="CCYYMMDD">20110629</EpiDate>
+            <EpiReference/>
+        </EpiIdentificationDetails>
+        <EpiPartyDetails>
+            <EpiBfiPartyDetails>
+                <EpiBfiIdentifier IdentificationSchemeName="BIC">OKOYFIHH</EpiBfiIdentifier>
+            </EpiBfiPartyDetails>
+            <EpiBeneficiaryPartyDetails>
+                <EpiNameAddressDetails>Rauman Tietokeskus Oy</EpiNameAddressDetails>
+                <EpiBei>1741670-7</EpiBei>
+                <EpiAccountID IdentificationSchemeName="IBAN">FI7757100420208597</EpiAccountID>
+            </EpiBeneficiaryPartyDetails>
+        </EpiPartyDetails>
+        <EpiPaymentInstructionDetails>
+            <EpiPaymentInstructionId/>
+            <EpiInstructionCode/>
+            <EpiRemittanceInfoIdentifier IdentificationSchemeName="SPY">00000000000330000110</EpiRemittanceInfoIdentifier>
+            <EpiInstructedAmount AmountCurrencyIdentifier="EUR">1069,80</EpiInstructedAmount>
+            <EpiCharge ChargeOption="SLEV">SLEV</EpiCharge>
+            <EpiDateOptionDate Format="CCYYMMDD">20110729</EpiDateOptionDate>
+        </EpiPaymentInstructionDetails>
+    </EpiDetails>
+</Finvoice>
